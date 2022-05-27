@@ -2,3 +2,15 @@ nevin:
   name: Nevin Chen
   email: nevinchen@example.com
   password_digest: <%= User.digest('password') %>
+
+bob:
+  name: Robert Belcher
+  email: robert@bobsburger.com
+  password_digest: <%= User.digest('password') %>
+
+<% 30.times do |n| %>
+user_<%= n %>:
+  name:  <%= "User #{n}" %>
+  email: <%= "user-#{n}@example.com" %>
+  password_digest: <%= User.digest('password') %>
+<% end %>
