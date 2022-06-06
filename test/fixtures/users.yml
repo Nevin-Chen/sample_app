@@ -12,6 +12,27 @@ bob:
   password_digest: <%= User.digest('password') %>
   activated: true
   activated_at: <%= Time.zone.now %>
+
+linda:
+  name: Linda Belcher
+  email: linda@bobsburger.com
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+tina:
+  name: Tina Belcher
+  email: tina@bobsburger.com
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+gene:
+  name: Eugene Belcher
+  email: eugene@bobsburger.com
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
   
 louise:
   name: Louise Belcher
