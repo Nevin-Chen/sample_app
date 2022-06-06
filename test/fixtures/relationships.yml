@@ -1,15 +1,16 @@
 one:
   follower: nevin
-  followed: bob
+  followed: linda
 
 two:
   follower: nevin
-  followed: louise
+  followed: gene
   
 three:
-  follower: bob
+  follower: linda
   followed: nevin
   
 four:
   follower: bob
-  followed: louise
+  followed: nevin
+  
